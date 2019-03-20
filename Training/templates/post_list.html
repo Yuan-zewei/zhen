@@ -7,5 +7,6 @@
 <body>
 <h4>{{ post.title }}</h4>
 <h5>{{ post.body }}</h5>
+<p><a href="{% url 'update' post.pk %}">修改内容</a></p>
 </body>
 </html>
