@@ -9,6 +9,7 @@
     <a href="{% url 'post_list' post.id %}">{{ post.title }}</a>
     <p>{{ post.publish|date:'Y-m-d H:i:s' }}</p>
 {% endfor %}
+<p><a href="{% url 'post_create' %}">添加</a></p>
 
 </body>
 </html>
